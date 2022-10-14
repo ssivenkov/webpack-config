@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es2021": true,
+    "amd": true,
+    "node": true
+  },
+  "globals": {"React": "writable"},
+  "ignorePatterns": ["src/**/*.test.ts"],
+  "parser": "@typescript-eslint/parser",
+  "root": true,
+  "settings": {
+    "react": {"version": "detect"},
+    "import/parsers": {"@typescript-eslint/parser": [".ts", ".tsx"]}
+  },
+  "rules": {
+    "no-unused-vars": "warn"
+  }
+}
